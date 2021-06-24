@@ -1,0 +1,239 @@
+
+
+.form-group label {
+    margin-bottom: 0px;
+    color: rgb(77, 77, 77);
+}
+
+/* #design-menu {
+    width: 400px;
+} */
+.selection-button {
+    background-color: #EBEBEB;
+    height: auto;
+    /* max-width: 100%; */
+    cursor: pointer;
+}
+div.vertical-right {
+    border-right: 2px solid gray;
+}
+div.white-vertical-right {
+    border-right: 2px solid white;
+}
+
+.menu-font {
+    font-size: large;
+}
+.custom-shadow {
+    box-shadow: 0 2px 1px  #cccccc;
+}
+
+.custom-button{
+    height: 45px;
+    -webkit-appearance: button;
+    padding: 5px;
+    cursor: pointer;
+}
+.custom-button-black{
+    height: 45px;
+    -webkit-appearance: button;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.button {
+
+        margin-top: 2.5em;    
+        background-color: #fff;
+        padding: 1em 2em;
+        margin-top: 2em;
+    
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+	display: flex;
+    visibility: hidden;
+    z-index: 1;
+}
+.pop-up{
+    /* width: 600px;
+    height: 600px; */
+    /* left: 0; */
+    /* top: 30px; */
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+    box-shadow: 5px 8px rgba(90, 90, 90, 0.2);
+    position: absolute;
+    padding: 10px;
+}
+
+div.pop-up input {
+    background-color: rgba(232, 232, 232, .8);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#objectResult .img-art, #objectResult .img-frame, #objectResult .img-liner {
+    
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    
+    
+}
+/* #objectResult  .img-art:hover, #objectResult .img-frame:hover, #objectResult .img-liner:hover{
+    
+    
+    transition-delay: 1s;
+    cursor: pointer;
+    z-index: 1000;
+    -webkit-transform:scale(2.5, 2.5);
+    -moz-transform:scale(2.5, 2.5);
+    -o-transform:scale(2.5, 2.5);
+    -ms-transform:scale(2.5, 2.5);
+    transform:scale(2.5, 2.5); 
+    transform: translate(30px,0);
+    width: 350px;
+} */
+
+#objectResult  .column-3:hover{
+    
+    
+    transition-delay: 1s;
+    cursor: pointer;
+    z-index: 1000;
+    -webkit-transform:scale(2.5, 2.5);
+    -moz-transform:scale(2.5, 2.5);
+    -o-transform:scale(2.5, 2.5);
+    -ms-transform:scale(2.5, 2.5);
+    transform:scale(2.5, 2.5); 
+    transform: translate(-60%,0);
+    width: 250%;
+    border: 2px solid black;
+}
+
+#objectResult  .column-2:hover{
+    
+    
+    transition-delay: 1s;
+    cursor: pointer;
+    z-index: 1000;
+    -webkit-transform:scale(2.5, 2.5);
+    -moz-transform:scale(2.5, 2.5);
+    -o-transform:scale(2.5, 2.5);
+    -ms-transform:scale(2.5, 2.5);
+    transform:scale(2.5, 2.5); 
+    transform: translate(-30%,0);
+    width: 250%;
+    border: 2px solid black;
+}
+#objectResult  .column-1:hover{
+    
+    
+    transition-delay: 1s;
+    cursor: pointer;
+    z-index: 1000;
+    -webkit-transform:scale(2.5, 2.5);
+    -moz-transform:scale(2.5, 2.5);
+    -o-transform:scale(2.5, 2.5);
+    -ms-transform:scale(2.5, 2.5);
+    transform:scale(2.5, 2.5); 
+    transform: translate(00px,0);
+    width: 250%;
+    border: 2px solid black;
+}
+
+.controller-button {
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    color: black;
+    
+}
+.controller-button:hover {
+    background-color: black;
+    color: white;
+    outline: none;
+    text-decoration: none;
+
+}
+.controller-button:focus {
+    outline: black;
+}
+
+.category-button {
+    
+    background-color: white;
+    border: 2px solid black;
+    outline: none;
+    
+}
+.category-button:hover {
+    background-color: black;
+    color: white;
+}
+.category-button:focus {
+    background-color: black;
+    color: white;
+    outline: none;
+}
+
+#objectResult {
+    
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: inline-block; 
+    margin:10px; 
+    height: 467px;
+}
+
+#objectResult::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  
+  #objectResult::-webkit-scrollbar-track {
+    background: lightgray;        /* color of the tracking area */
+  }
+  
+  #objectResult::-webkit-scrollbar-thumb {
+    background-color: black;    /* color of the scroll thumb */
+    border-radius: 0px;       /* roundness of the scroll thumb */
+    border: 5px solid black;  /* creates padding around scroll thumb */
+  }
+  .hidden-input {
+      display: none;
+  }
+  .test {
+      overflow: visible
+  }
+  /* .custom-outline-dark {
+      min-height: 200px;
+  } */
+
+
+  @media handheld, only screen and (max-height: 800px) {	
+
+    #register-form-content {
+        height: 500px;
+        overflow-x: hidden ;
+        overflow-y: auto;
+    }
+  }
+  @media handheld, only screen and (max-width: 480px) {	
+    #decoratv_logo {
+        width: 100px;
+    }
+  }

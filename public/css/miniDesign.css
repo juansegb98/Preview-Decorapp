@@ -1,0 +1,47 @@
+.design-container{
+    float: none !important;
+    margin: 0 auto 0 auto;
+    position: relative;
+    width: 200px;
+    border: 1px solid black;
+    height: 120px;
+}
+
+.frame{
+
+ background-size: 100% 100% !important;
+ border: 1px solid #232323;
+ height: 100%;
+ width: 100%;
+
+}
+
+
+/* Liner  */
+
+.liner{
+
+ position: absolute;
+ left: 5%;
+ top: 7%;
+ height: 85%;
+ width: 90.2%;
+ background-size: 100% 100% !important;
+}
+
+
+/* art */
+
+.art{
+ height: 79%;
+ position: absolute;
+ left: 7%;
+ top: 10%;
+ width: 85.8%;
+
+}
+#elements img {
+    width: 150px;
+    height: 130px;
+    object-fit: contain;
+}

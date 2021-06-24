@@ -1,0 +1,123 @@
+#background-space {
+    background-image: url("../storage/Frame_UX/wood_background.png");
+    width: 100% !important;
+    position: relative;
+    padding-top: 5em;
+    
+}
+.design-container{
+    float: none !important;
+    margin: 0;
+    position: relative;
+    width: 90%;
+    height: 31.6em;
+    max-width: 55.14em;
+    
+}
+.shadow-image{
+    position: absolute;
+    background-size: 100% 100% !important;
+    height: 33.5em;
+    width: 103%; 
+    color: white;
+} 
+.frame{
+    position: absolute;
+    background-size: 100% 100% !important;
+    height: 100%;
+    width: 100%;
+    object-fit: none;
+    
+}
+
+
+/* Liner  */
+
+.liner{
+
+position: absolute;
+ left: 7%;
+ top: 7%;
+ height: 85%;
+ width: 89.7%;
+ background-size: 100% 100% !important;
+}
+
+
+/* art */
+
+.art{
+
+height: 79%;
+position: absolute;
+left: 9%;
+top: 10%;
+width: 85.8%;
+       
+}
+
+@media handheld, only screen and (max-width: 768px) {	
+
+    .design-container {
+        height: 25em;
+    }
+
+    .shadow-image {
+        height: 26em;
+    }
+    .liner {
+        left:8%;
+        width: 91%;
+    }
+    .art {
+        left: 10%;
+        width: 87%;
+    }
+
+    /* .frame {
+
+        margin-left: 5%;
+        height: 25em;
+        width: 90%;
+
+    }
+
+    .botonframe {
+
+        left: 3%
+    }
+
+    .botonliner h4:before {
+
+        left: 16%;
+    }
+
+    .botonliner:before {
+
+        left: 15%;
+
+    } */
+
+
+}
+
+
+@media handheld, only screen and (max-width: 480px) {	
+
+
+    .design-container {
+        height: 14em;
+    }
+
+    .shadow-image {
+        height: 14.5em;
+    }
+    .liner {
+        left:9%;
+    }
+    .art {
+        left: 11%;
+        width:87.5%;
+    }
+
+}
