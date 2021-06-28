@@ -48,13 +48,17 @@ Checkout
                         </div>
                     </td>
                     @switch($tvSize)
-                        @case(45)
+                    @case(45)
                             @if($frame->frame_group == "A")
                             <td class="align-middle"><span id="frame-price">$3,942.00</span></td>
                             @elseif($frame->frame_group == "B")
                             <td class="align-middle"><span id="frame-price">$4,688.00</span></td>
                             @elseif($frame->frame_group == "C")
                             <td class="align-middle"><span id="frame-price">$5,633.00</span></td>
+                            @elseif($frame->frame_group == "D")
+                            <td class="align-middle"><span id="frame-price">$7,511.00</span></td>
+                            @elseif($frame->frame_group == "E")
+                            <td class="align-middle"><span id="frame-price">$10,015.00</span></td>
                             @endif
         
                             @break
@@ -66,6 +70,10 @@ Checkout
                             <td class="align-middle"><span id="frame-price">$5,208.00</span></td>
                             @elseif($frame->frame_group == "C")
                             <td class="align-middle"><span id="frame-price">$6,257.00</span></td>
+                            @elseif($frame->frame_group == "D")
+                            <td class="align-middle"><span id="frame-price">$8,343.00</span></td>
+                            @elseif($frame->frame_group == "E")
+                            <td class="align-middle"><span id="frame-price">$11,124.00</span></td>
                             @endif
         
                             @break
@@ -77,6 +85,10 @@ Checkout
                             <td class="align-middle"><span id="frame-price">$5,784.00</span></td>
                             @elseif($frame->frame_group == "C")
                             <td class="align-middle"><span id="frame-price">$6,947.00</span></td>
+                            @elseif($frame->frame_group == "D")
+                            <td class="align-middle"><span id="frame-price">$9,263.00</span></td>
+                            @elseif($frame->frame_group == "E")
+                            <td class="align-middle"><span id="frame-price">$12,351.00</span></td>
                             @endif
         
                             @break
@@ -88,6 +100,10 @@ Checkout
                             <td class="align-middle"><span id="frame-price">$6,371.00</span></td>
                             @elseif($frame->frame_group == "C")
                             <td class="align-middle"><span id="frame-price">$7,647.00</span></td>
+                            @elseif($frame->frame_group == "D")
+                            <td class="align-middle"><span id="frame-price">$10,196.00</span></td>
+                            @elseif($frame->frame_group == "E")
+                            <td class="align-middle"><span id="frame-price">$13,595.00</span></td>
                             @endif
         
                             @break
@@ -99,6 +115,10 @@ Checkout
                             <td class="align-middle"><span id="frame-price">$7,004.00</span></td>
                             @elseif($frame->frame_group == "C")
                             <td class="align-middle"><span id="frame-price">$8,412.00</span></td>
+                            @elseif($frame->frame_group == "D")
+                            <td class="align-middle"><span id="frame-price">$11,216.00</span></td>
+                            @elseif($frame->frame_group == "E")
+                            <td class="align-middle"><span id="frame-price">$14,955.00</span></td>
                             @endif
         
                             @break
@@ -110,6 +130,10 @@ Checkout
                             <td class="align-middle"><span id="frame-price">$7,703.00</span></td>
                             @elseif($frame->frame_group == "C")
                             <td class="align-middle"><span id="frame-price">$9,252.00</span></td>
+                            @elseif($frame->frame_group == "D")
+                            <td class="align-middle"><span id="frame-price">$12,336.00</span></td>
+                            @elseif($frame->frame_group == "E")
+                            <td class="align-middle"><span id="frame-price">$16,448.00</span></td>
                             @endif
         
                             @break
@@ -121,6 +145,10 @@ Checkout
                             <td class="align-middle"><span id="frame-price">$8,468.00</span></td>
                             @elseif($frame->frame_group == "C")
                             <td class="align-middle"><span id="frame-price">$10,169.00</span></td>
+                            @elseif($frame->frame_group == "D")
+                            <td class="align-middle"><span id="frame-price">$13,559.00</span></td>
+                            @elseif($frame->frame_group == "E")
+                            <td class="align-middle"><span id="frame-price">$18,079.00</span></td>
                             @endif
         
                             @break
@@ -132,6 +160,10 @@ Checkout
                             <td class="align-middle"><span id="frame-price">$9,319.00</span></td>
                             @elseif($frame->frame_group == "C")
                             <td class="align-middle"><span id="frame-price">$11,189.00</span></td>
+                            @elseif($frame->frame_group == "D")
+                            <td class="align-middle"><span id="frame-price">$14,919.00</span></td>
+                            @elseif($frame->frame_group == "E")
+                            <td class="align-middle"><span id="frame-price">$19,892.00</span></td>
                             @endif
         
                             @break
@@ -143,6 +175,10 @@ Checkout
                             <td class="align-middle"><span id="frame-price">$10,255.00</span></td>
                             @elseif($frame->frame_group == "C")
                             <td class="align-middle"><span id="frame-price">$12,305.00</span></td>
+                            @elseif($frame->frame_group == "D")
+                            <td class="align-middle"><span id="frame-price">$16,407.00</span></td>
+                            @elseif($frame->frame_group == "E")
+                            <td class="align-middle"><span id="frame-price">$21,876.00</span></td>
                             @endif
         
                             @break
