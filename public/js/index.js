@@ -655,7 +655,7 @@
                     $("#checkout-modal").modal('show');
                 } else if (objDesign.checkoutType == "order"){
                     $("#checkout-title").html('Place Order')
-                    $("#checkoutButton").attr('formaction','/order_page')
+                    $("#checkoutButton").attr('formaction',BASE_URL+'/order_page')
                     $("#checkout-modal").modal('show');
                 } else if(objDesign.checkoutType == "sample"){
                     $("#sample-modal").modal('show');            }
@@ -669,7 +669,7 @@
                             $("#checkout-modal").modal('show');
                         } else if (objDesign.checkoutType == "order"){
                             $("#checkout-title").html('Place Order')
-                            $("#checkoutButton").attr('formaction','/order_page')
+                            $("#checkoutButton").attr('formaction',BASE_URL+'/order_page')
                             $("#checkout-modal").modal('show');
                         } else if(objDesign.checkoutType == "sample"){
                             $("#sample-modal").modal('show');                    }
@@ -687,7 +687,7 @@
                 $("#checkout-modal").modal('show');
             } else if(objDesign.checkoutType == "order"){
                 $("#checkout-title").html('Place Order')
-                $("#checkoutButton").attr('formaction','/order_page')
+                $("#checkoutButton").attr('formaction',BASE_URL+'/order_page')
                 $("#checkout-modal").modal('show');
             } else if(objDesign.checkoutType == "sample"){
                 $("#sample-modal").modal('show');
