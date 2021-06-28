@@ -18,7 +18,7 @@ $(document).ready(function(){
       $('#form-royaltyFee').val($('#royaltyFee').html());
       $('#form-msrp').val($('#frame-price').html());
       $('#form-totalPrice').val($('#total').html());
-  });
+});
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {

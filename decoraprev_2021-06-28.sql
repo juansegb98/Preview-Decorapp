@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.7.32)
 # Database: decoraprev
-# Generation Time: 2021-06-24 21:02:16 +0000
+# Generation Time: 2021-06-28 13:21:20 +0000
 # ************************************************************
 
 
@@ -76,32 +76,6 @@ VALUES
 UNLOCK TABLES;
 
 
-# Dump of table background
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `background`;
-
-CREATE TABLE `background` (
-  `background_id` int(11) NOT NULL AUTO_INCREMENT,
-  `background_name` varchar(200) DEFAULT NULL,
-  `background_src` varchar(300) DEFAULT NULL,
-  `background_creation_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`background_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-LOCK TABLES `background` WRITE;
-/*!40000 ALTER TABLE `background` DISABLE KEYS */;
-
-INSERT INTO `background` (`background_id`, `background_name`, `background_src`, `background_creation_date`)
-VALUES
-	(1,'Texture-1','20070105040811-Texture-1.jpg','2015-12-24 03:47:15'),
-	(2,'Text-2','20070105040830-Texture-2.jpg','2015-12-24 10:49:22'),
-	(3,'Text-3','20070105040844-Texture-3.jpg','2015-12-24 10:49:22');
-
-/*!40000 ALTER TABLE `background` ENABLE KEYS */;
-UNLOCK TABLES;
-
-
 # Dump of table frames
 # ------------------------------------------------------------
 
@@ -126,17 +100,7 @@ VALUES
 	(25,'GroupA_FBW96069_Catalogue_Honey_preview.png','GroupA_FBW96069_Catalogue_Honey.png','FBW96069','A','2021-05-03 23:35:04','Catalogue Honey'),
 	(26,'GroupA_FBW96273_Black_Satin_preview.png','GroupA_FBW96273_Black_Satin.png','FBW96273','A','2021-05-03 23:35:58','Black Satin'),
 	(27,'GroupB_DB8000_Distressed_White_preview.png','GroupB_DB8000_Distressed_White.png','DB8000','B','2021-05-04 12:05:09','Distressed White'),
-	(28,'GroupB_DB8001_Distressed_Walnut_Black_preview.png','GroupB_DB8001_Distressed_Walnut_Black.png','DB8001','B','2021-05-08 16:58:01','Distressed Walnut Black'),
-	(29,'GroupB_DB8002_Distressed_Walnut_Brown_preview.png','GroupB_DB8002_Distressed_Walnut_Brown.png','DB8002','B','2021-05-08 16:59:09','Distressed Walnut Brown'),
-	(30,'GroupB_DB8003_Distressed_Natural_preview.png','GroupB_DB8003_Distressed_Natural.png','DB8003','B','2021-05-08 16:59:57','Distressed Natural'),
-	(31,'GroupB_U328-4208_Silver_Chromo_preview.png','GroupB_U328-4208_Silver_Chromo.png','U328-4208','B','2021-05-08 17:02:48','Silver Chromo'),
 	(32,'GroupC_A1287_Gold_Emb_Mahogany_preview.png','GroupC_A1287_Gold_Emb_Mahogany.png','A1287','C','2021-05-08 17:03:29','Gold Emb Mahogany'),
-	(33,'GroupC_A1291_Cherry_Mahogany_LIP_preview.png','GroupC_A1291_Cherry_Mahogany_LIP.png','A1291','C','2021-05-08 17:05:00','Cherry Mahogany LIP'),
-	(34,'GroupC_A1292_Walnut_Mahogany_LIP_preview.png','GroupC_A1292_Walnut_Mahogany_LIP.png','A1292','C','2021-05-08 17:06:32','Walnut Mahogany LIP'),
-	(35,'GroupC_L722830_Classic_Biltmore_Gold_Reverse_Scoop_preview.png','GroupC_L722830_Classic_Biltmore_Gold_Reverse_Scoop.png','L722830','C','2021-05-08 17:07:34','Classic Biltmore Gold Reverse Scoop'),
-	(36,'GroupC_L722831_Classic_Biltmore_Black_Reverse_Scoop_preview.png','GroupC_L722831_Classic_Biltmore_Black_Reverse_Scoop.png','L722831','C','2021-05-08 17:08:27','Classic Biltmore Black Reverse Scoop'),
-	(37,'GroupC_L822830_Classic_Biltmore_Gold_-_Flat_preview.png','GroupC_L822830_Classic_Biltmore_Gold_-_Flat.png','L822830','C','2021-05-08 17:09:05','Classic Biltmore Gold - Flat'),
-	(38,'GroupC_U058-3436_Light_Pecan_Pasadena_preview.png','GroupC_U058-3436_Light_Pecan_Pasadena.png','U058-3436','C','2021-05-10 09:45:02','Light Pecan Pasadena'),
 	(39,'GroupC_U058-3438_Dark_Walnut_Pasadena_preview.png','GroupC_U058-3438_Dark_Walnut_Pasadena.png','U058-3438','D','2021-05-10 09:45:41','Dark Walnut Pasadena'),
 	(40,'GroupC_L822831_Classic_Biltmore_Black_-_Flat_preview.png','GroupC_L822831_Classic_Biltmore_Black_-_Flat.png','L822831','E','2021-05-10 09:51:54','Classic Biltmore Black - Flat');
 
@@ -210,15 +174,6 @@ CREATE TABLE `password_resets` (
   KEY `password_resets_email_index` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-LOCK TABLES `password_resets` WRITE;
-/*!40000 ALTER TABLE `password_resets` DISABLE KEYS */;
-
-INSERT INTO `password_resets` (`email`, `token`, `created_at`)
-VALUES
-	('juanse-gb98@hotmail.com','$2y$10$/67CLw7FssRasXAu0G2UReawdK/QakMkcM3R.zQK.bGaJXTT0iM46','2021-06-17 15:07:57');
-
-/*!40000 ALTER TABLE `password_resets` ENABLE KEYS */;
-UNLOCK TABLES;
 
 
 # Dump of table wp_users

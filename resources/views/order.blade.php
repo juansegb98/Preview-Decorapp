@@ -8,12 +8,7 @@ Checkout
 <script src="{{ asset('js/orderPage.js') }}"> </script>
 @endsection
 @section('content')
-<style type="text/css">
 
-
-
-
-</style>
 <div class="container">
     <div class="row px-4 m-4" >
         <div class="col">
@@ -673,7 +668,9 @@ Checkout
 
 
 </div>
+<script>
 
+</script>
 
 
 @endsection
