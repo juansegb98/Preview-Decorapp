@@ -8,7 +8,7 @@ You only need to have a server able to run PHP 7.4
 
 ## Instalation 
 
-Clone the bitbucket repository. You will find inside a file type .sql; You can create a new database and import this file. Then you can create a file .env with the specifications that you have. You can use the file .env.example as a model.
+Clone the git repository. You will find inside a file type .sql; You can create a new database and import this file. Then you can create a file .env with the specifications that you have. You can use the file .env.example as a model.
 And now you are ready to run the app.
 To check all functionalities you can login as
 user: usertest@mail.com
